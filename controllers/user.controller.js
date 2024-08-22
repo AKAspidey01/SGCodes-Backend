@@ -48,8 +48,7 @@ exports.userSignIn = async (req, res) => {
                     {
                         email: isUserExist.email , 
                         _id: isUserExist._id , 
-                        userName: isUserExist.username,
-                        // lastName: isUserExist.lastName,
+                        userName: isUserExist.userName,
                         mobileNumber: isUserExist.mobileNumber,
                         profileImage: isUserExist.profileImage,
                         createdAt: isUserExist.createdAt,
